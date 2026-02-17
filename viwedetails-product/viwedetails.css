@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(99, 93, 188);
+}
+
+main{
+           
+    box-shadow: 0PX 0PX 20PX rgb(240, 244, 245);
+    height: 100%;
+    width: 1450px;
+    /* border: 2px solid rgb(27, 24, 24); */
+    margin:20px auto;
+    padding: 10px;
+    background-color: rgba(158, 198, 92, 0.829);
+    color: black;
+    /* display: flex; */
+ }
+ #main{
+    display: flex;
+ }
+
+ img{
+
+    width: 500px;
+    height: 500px;
+    margin-bottom: 10px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+    /* transition-duration: 1s ; */
+    overflow: hidden;
+}
+
+#title{
+    margin: 30px;
+    color: rgb(171, 13, 7);
+}
+#category{
+    margin: 30px;
+    font-size: 30px;
+
+}
+#description{
+    margin: 30px;
+    line-height: 39px;
+    width: 900px;
+    font-size: 25px;
+    /* border: 2px solid rgb(6, 5, 5); */
+}
+button{
+    margin: 30px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: white;
+    border-radius: 10px;
+    border: none;
+    /* border: 2px solid black; */
+    transition: transform 1s;
+
+}
+
+#p{
+    margin: 30px;
+    font-size: 28px;
+    color: rgb(13, 2, 84);
+}
+button:hover{
+    transform: scale(1.1);
+    /* transition-duration: 1s ; */
+    overflow: hidden;
+    color: black;
+}
+#add{
+    margin-right: 30px;
+    background-color: rgb(15, 15, 189);
+}
+#back{
+    background-color: rgb(217, 22, 4);
+}
+
+
+#rating{
+   margin-bottom: 20px;
+   font-size: 30px;
+}
+#comment{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+#nam{
+margin-bottom: 15px;
+    font-size: 30px;
+}
